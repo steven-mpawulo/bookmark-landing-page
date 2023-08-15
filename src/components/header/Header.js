@@ -1,5 +1,6 @@
 import React from 'react'
 import Logo from '../../images/logo-bookmark.svg'
+import Button from '../common/button/Button'
 
 const Header = () => {
     return (
@@ -12,6 +13,9 @@ const Header = () => {
                     <li><a href="#contact">CONTACT</a></li>
                 </ul>
             </nav>
+            <Button buttonText={"LOGIN"}/>
+
+        
 
         </header>
     )
