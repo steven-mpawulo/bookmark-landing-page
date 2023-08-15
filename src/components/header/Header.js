@@ -14,7 +14,7 @@ const Header = () => {
                     <li><a href="#contact">CONTACT</a></li>
                 </ul>
             </nav>
-            <Button buttonText={"LOGIN"}/>
+            <Button buttonText={"LOGIN"} backgroundColor={"hsl(0, 94%, 66%)"} color={"white"}/>
 
         
 
