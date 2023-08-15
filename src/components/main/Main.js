@@ -16,7 +16,12 @@ const Main = () => {
                 </div>
             </div>
             <div className="first-section-right">
+                <div className="background-container">
+                </div>
+                <div className="image-container">
                 <img src={IllustrationHero} alt="illustration-hero" className='illustration-hero'/>
+                </div>
+                
             </div>
         </section>
     </main>
