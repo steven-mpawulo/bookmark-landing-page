@@ -1,6 +1,7 @@
 import React from 'react'
 import Button from '../common/button/Button'
 import IllustrationHero from '../../images/illustration-hero.svg'
+import './main.css'
 
 const Main = () => {
   return (
