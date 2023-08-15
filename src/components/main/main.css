@@ -10,3 +10,7 @@ h1 {
     display: block;
 }
 
+.first-section p {
+    color: hsl(229, 8%, 60%);
+}
+
