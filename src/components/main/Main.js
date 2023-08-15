@@ -11,7 +11,7 @@ const Main = () => {
                 <h1>A simple Bookmark <span>Manager</span></h1>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam laboriosam dignissimos ipsam repellat rerum vel necessitatibus pariatur vero nisi fuga provident, dolorem impedit iure molestiae, libero, cumque omnis. Laborum, quos.</p>
                 <div className="first-section-inner-container">
-                    <Button buttonText={"Get it on Chrome"}/>
+                    <Button buttonText={"Get it on Chrome"} backgroundColor={"hsl(231, 69%, 60%)"} color={"white"} marginRight={"20px"}/>
                     <Button buttonText={"Get it on Firefox"}/>
                 </div>
             </div>

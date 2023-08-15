@@ -14,3 +14,9 @@ h1 {
     color: hsl(229, 8%, 60%);
 }
 
+.first-inner-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
