@@ -1,6 +1,7 @@
 import React from 'react'
 import Logo from '../../images/logo-bookmark.svg'
 import Button from '../common/button/Button'
+import './header.css'
 
 const Header = () => {
     return (
