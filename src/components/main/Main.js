@@ -75,8 +75,6 @@ const Main = () => {
 
                     <Button buttonText={"More Info"} backgroundColor={"hsl(231, 69%, 60%)"} color={"white"} />
                 </div>
-
-
             </section>
         </main>
     )
