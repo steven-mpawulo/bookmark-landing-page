@@ -48,6 +48,10 @@ const Main = () => {
                 </div>
             </div>
         </section>
+        <section className='third-section'>
+            <h2>Download the extension</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam aperiam sed ex nobis. Aliquid deserunt id autem nostrum illum culpa ipsam maiores quos earum reprehenderit et, facere iste porro consequatur.</p>
+        </section>
     </main>
   )
 }
