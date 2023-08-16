@@ -24,3 +24,32 @@
 height: 36px;
 width: 18%;
 }
+
+.footer-second-section {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: hsl(229, 31%, 21%);
+}
+
+.footer-second-section ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.footer-second-section a {
+    text-decoration: none;
+    color: white;
+    margin-right: 25px;
+}
+
+.container-for-icons {
+    flex-grow: 0.05;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-logo {
+    filter: invert(99%) sepia(100%) saturate(17%) hue-rotate(285deg) brightness(104%) contrast(100%);
+}

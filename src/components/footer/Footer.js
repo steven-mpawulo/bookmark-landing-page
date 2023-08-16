@@ -17,14 +17,17 @@ const Footer = ({numberOfPeople}) => {
             </div>
         </div>
         <div className="footer-second-section">
-            <img src={Logo} alt="logo" />
+            <img src={Logo} alt="logo" className='footer-logo' />
             <ul>
                 <li><a href="#FEATURES">FEATURES</a></li>
                 <li><a href="#PRICING">PRICING</a></li>
                 <li><a href="#CONTACT">CONTACT</a></li>
             </ul>
+            <div className="container-for-icons">
             <img src={FacebookIcon} alt="facebook-icon" />
             <img src={TwitterIcon} alt="twitter-icon" />
+            </div>
+            
         </div>
     </footer>
   )
