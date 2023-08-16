@@ -1,0 +1,25 @@
+.footer-first-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: hsl(231, 69%, 60%);
+    margin-top: 2%;
+    color: white;
+}
+
+.footer-first-section span {
+    display: block;
+    text-align: center;
+}
+
+.footer-inner-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.footer-inner-container input {
+height: 36px;
+width: 18%;
+}
