@@ -6,6 +6,7 @@ import Card from '../common/card/Card'
 import ChromeIcon from '../../images/logo-chrome.svg'
 import FireFoxIcon from '../../images/logo-firefox.svg'
 import OperaIcon from '../../images/logo-opera.svg'
+import ArrowDown from '../../images/icon-arrow.svg'
 
 const Main = () => {
     return (
@@ -60,6 +61,16 @@ const Main = () => {
                     <Card browserName={"Firefox"} browserVersion={55} icon={FireFoxIcon} position={"relative"} positionTop={"50px"}/>
                     <Card browserName={"Opera"} browserVersion={46} icon={OperaIcon} position={"relative"} positionTop={"100px"}/>
                 </div>
+            </section>
+            <section className='fourth-section'>
+                <h2>Frequently Asked Questions</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque sit quas expedita, soluta assumenda esse pariatur minus quia dignissimos nisi quasi. Nisi omnis natus voluptatum placeat soluta ipsum pariatur dolores?</p>
+                <hr />
+                <div className="question-container">
+                    <p>What is Bookmark?</p>
+                    <img src={ArrowDown} alt="arrow-down" className='arrow-down'/>
+                </div>
+                <hr />
             </section>
         </main>
     )
