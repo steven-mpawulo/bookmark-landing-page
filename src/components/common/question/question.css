@@ -1,0 +1,9 @@
+.question-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.question-container hr {
+    border-top: 1px solid black;
+}

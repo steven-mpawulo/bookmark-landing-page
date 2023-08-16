@@ -64,10 +64,13 @@ const Main = () => {
                 </div>
             </section>
             <section className='fourth-section'>
+                <div className="fourth-section-inner-container">
                 <h2>Frequently Asked Questions</h2>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque sit quas expedita, soluta assumenda esse pariatur minus quia dignissimos nisi quasi. Nisi omnis natus voluptatum placeat soluta ipsum pariatur dolores?</p>
                 <hr />
                 <Question ArrowIcon={ArrowDown} question={"What is Bookmark?"}/>
+                </div>
+                
             
             </section>
         </main>

@@ -17,7 +17,7 @@
     color: grey;
 }
 
-hr {
+.card hr {
     border-top: 2px dotted grey;
     width: 100%;
 }
