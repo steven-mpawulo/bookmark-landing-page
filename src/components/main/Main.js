@@ -8,6 +8,9 @@ import FireFoxIcon from '../../images/logo-firefox.svg'
 import OperaIcon from '../../images/logo-opera.svg'
 import ArrowDown from '../../images/icon-arrow.svg'
 import Question from '../common/question/Question'
+// import IllustrationFeaturesTab1 from '../../images/illustration-features-tab-1.svg'
+// import IllustrationFeaturesTab2 from '../../images/illustration-features-tab-2.svg'
+// import IllustrationFeaturesTab3 from '../../images/illustration-features-tab-3.svg'
 
 const Main = () => {
     return (
@@ -35,8 +38,11 @@ const Main = () => {
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur amet eligendi fugiat adipisci dolor at, quaerat nobis fugit assumenda aliquid quos pariatur necessitatibus consequatur dolore accusantium qui officia non quisquam!</p>
                 <div className="container-for-tab-section">
                     <span>Simple Bookmarking</span>
+                    {/* <img src={IllustrationFeaturesTab1} alt="" /> */}
                     <span>Speedy Searching</span>
+                    {/* <img src={IllustrationFeaturesTab2} alt="" /> */}
                     <span>Easy Sharing</span>
+                    {/* <img src={IllustrationFeaturesTab3} alt="" /> */}
                 </div>
                 <div className="second-section-inner-container">
                     <div className="left-inner-container">
@@ -72,7 +78,6 @@ const Main = () => {
                     <Question ArrowIcon={ArrowDown} question={"How can i request a new browser"} />
                     <Question ArrowIcon={ArrowDown} question={"is there a mobile app"} />
                     <Question ArrowIcon={ArrowDown} question={"What about other Chromium browsers"} />
-
                     <Button buttonText={"More Info"} backgroundColor={"hsl(231, 69%, 60%)"} color={"white"} />
                 </div>
             </section>
