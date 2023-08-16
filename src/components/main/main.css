@@ -113,5 +113,8 @@ h1 {
 }
 
 .container-for-cards {
+    width: 100%;
     display: flex;
+    justify-content: center;
+    position: relative;
 }

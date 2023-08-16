@@ -57,8 +57,8 @@ const Main = () => {
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam aperiam sed ex nobis. Aliquid deserunt id autem nostrum illum culpa ipsam maiores quos earum reprehenderit et, facere iste porro consequatur.</p>
                 <div className="container-for-cards">
                     <Card browserName={"Chrome"} browserVersion={42} icon={ChromeIcon}  />
-                    <Card browserName={"Firefox"} browserVersion={55} icon={FireFoxIcon}/>
-                    <Card browserName={"Opera"} browserVersion={46} icon={OperaIcon} />
+                    <Card browserName={"Firefox"} browserVersion={55} icon={FireFoxIcon} position={"relative"} positionTop={"50px"}/>
+                    <Card browserName={"Opera"} browserVersion={46} icon={OperaIcon} position={"relative"} positionTop={"100px"}/>
                 </div>
             </section>
         </main>

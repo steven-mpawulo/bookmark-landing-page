@@ -2,9 +2,9 @@ import React from 'react'
 import Button from '../button/Button'
 import './card.css'
 
-const Card = ({ icon, browserName, browserVersion, positionTop }) => {
+const Card = ({ icon, browserName, browserVersion, position, positionTop }) => {
     return (
-        <div className="card">
+        <div  style={{position : `${position}`, top: `${positionTop}`}}className="card">
             <img src={icon} alt="icon" />
             <h2>Add to {browserName}</h2>
             <p>Minimum version {browserVersion}</p>
