@@ -7,6 +7,7 @@ import ChromeIcon from '../../images/logo-chrome.svg'
 import FireFoxIcon from '../../images/logo-firefox.svg'
 import OperaIcon from '../../images/logo-opera.svg'
 import ArrowDown from '../../images/icon-arrow.svg'
+import Question from '../common/question/Question'
 
 const Main = () => {
     return (
@@ -66,11 +67,8 @@ const Main = () => {
                 <h2>Frequently Asked Questions</h2>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque sit quas expedita, soluta assumenda esse pariatur minus quia dignissimos nisi quasi. Nisi omnis natus voluptatum placeat soluta ipsum pariatur dolores?</p>
                 <hr />
-                <div className="question-container">
-                    <p>What is Bookmark?</p>
-                    <img src={ArrowDown} alt="arrow-down" className='arrow-down'/>
-                </div>
-                <hr />
+                <Question ArrowIcon={ArrowDown} question={"What is Bookmark?"}/>
+            
             </section>
         </main>
     )
