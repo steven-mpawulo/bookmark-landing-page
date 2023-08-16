@@ -24,6 +24,15 @@ const Main = () => {
                 
             </div>
         </section>
+        <section className='second-section'>
+            <h2>Features</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur amet eligendi fugiat adipisci dolor at, quaerat nobis fugit assumenda aliquid quos pariatur necessitatibus consequatur dolore accusantium qui officia non quisquam!</p>
+            <div className="container-for-tab-section">
+                <span>Simple Bookmarking</span>
+                <span>Speedy searching</span>
+                <span>Easy sharing</span>
+            </div>
+        </section>
     </main>
   )
 }
