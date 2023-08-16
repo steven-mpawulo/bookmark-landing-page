@@ -29,8 +29,19 @@ const Main = () => {
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur amet eligendi fugiat adipisci dolor at, quaerat nobis fugit assumenda aliquid quos pariatur necessitatibus consequatur dolore accusantium qui officia non quisquam!</p>
             <div className="container-for-tab-section">
                 <span>Simple Bookmarking</span>
-                <span>Speedy searching</span>
-                <span>Easy sharing</span>
+                <span>Speedy Searching</span>
+                <span>Easy Sharing</span>
+            </div>
+            <div className="second-section-inner-container">
+                <div className="container-for-background-2"></div>
+                <div className="left-inner-container">
+                    <img src={IllustrationHero} alt="illustration-hero-2" className='illustration-hero-2' />
+                </div>
+                <div className="right-inner-container">
+                    <h2>Bookmark in one click</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam animi dolorem sunt ut, at labore praesentium eum alias consequuntur voluptatibus placeat soluta quo officia perferendis aliquam ea voluptatem amet dolore?</p>
+                    <Button buttonText={"More Info"} backgroundColor={"hsl(231, 69%, 60%)"} color={"white"} />
+                </div>
             </div>
         </section>
     </main>

@@ -56,4 +56,17 @@ h1 {
     margin-top: 10%;
 }
 
+.second-section h2 {
+    color: hsl(229, 31%, 21%);
+}
+
+.container-for-tab-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-for-tab-section span {
+    margin-right: 20px;
+}
 
