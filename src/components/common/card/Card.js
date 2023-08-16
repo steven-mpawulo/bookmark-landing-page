@@ -1,5 +1,6 @@
 import React from 'react'
 import Button from '../button/Button'
+import './card.css'
 
 const Card = ({ icon, browserName, browserVersion }) => {
     return (
@@ -8,7 +9,7 @@ const Card = ({ icon, browserName, browserVersion }) => {
             <p>Add to {browserName}</p>
             <p>Minimum version {browserVersion}</p>
             <hr />
-            <Button buttonText={"Add & Install Extension"} backgroundColor={"hsl(231, 69%, 60%)"} color={"white"} />
+            <Button buttonText={"Add & Install Extension"} backgroundColor={"hsl(231, 69%, 60%)"} color={"white"} marginLeft={"12px"} marginRight={"12px"} />
         </div>
     )
 }
