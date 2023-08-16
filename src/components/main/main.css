@@ -129,4 +129,7 @@ h1 {
 
 .fourth-section-inner-container {
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
