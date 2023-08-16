@@ -4,6 +4,8 @@ import IllustrationHero from '../../images/illustration-hero.svg'
 import './main.css'
 import Card from '../common/card/Card'
 import ChromeIcon from '../../images/logo-chrome.svg'
+import FireFoxIcon from '../../images/logo-firefox.svg'
+import OperaIcon from '../../images/logo-opera.svg'
 
 const Main = () => {
     return (
@@ -55,6 +57,8 @@ const Main = () => {
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam aperiam sed ex nobis. Aliquid deserunt id autem nostrum illum culpa ipsam maiores quos earum reprehenderit et, facere iste porro consequatur.</p>
                 <div className="container-for-cards">
                     <Card browserName={"Chrome"} browserVersion={42} icon={ChromeIcon} />
+                    <Card browserName={"Firefox"} browserVersion={55} icon={FireFoxIcon} />
+                    <Card browserName={"Opera"} browserVersion={46} icon={OperaIcon} />
                 </div>
             </section>
         </main>
