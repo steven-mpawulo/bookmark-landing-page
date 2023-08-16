@@ -33,10 +33,14 @@ const Main = () => {
                 <span>Easy Sharing</span>
             </div>
             <div className="second-section-inner-container">
-                <div className="container-for-background-2"></div>
                 <div className="left-inner-container">
+                <div className="container-for-background"></div>
+                <div className="container-for-image">
                     <img src={IllustrationHero} alt="illustration-hero-2" className='illustration-hero-2' />
                 </div>
+                
+                </div>
+                
                 <div className="right-inner-container">
                     <h2>Bookmark in one click</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam animi dolorem sunt ut, at labore praesentium eum alias consequuntur voluptatibus placeat soluta quo officia perferendis aliquam ea voluptatem amet dolore?</p>
