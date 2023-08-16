@@ -58,20 +58,25 @@ const Main = () => {
                 <h2>Download the extension</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam aperiam sed ex nobis. Aliquid deserunt id autem nostrum illum culpa ipsam maiores quos earum reprehenderit et, facere iste porro consequatur.</p>
                 <div className="container-for-cards">
-                    <Card browserName={"Chrome"} browserVersion={42} icon={ChromeIcon}  />
-                    <Card browserName={"Firefox"} browserVersion={55} icon={FireFoxIcon} position={"relative"} positionTop={"50px"}/>
-                    <Card browserName={"Opera"} browserVersion={46} icon={OperaIcon} position={"relative"} positionTop={"100px"}/>
+                    <Card browserName={"Chrome"} browserVersion={42} icon={ChromeIcon} />
+                    <Card browserName={"Firefox"} browserVersion={55} icon={FireFoxIcon} position={"relative"} positionTop={"50px"} />
+                    <Card browserName={"Opera"} browserVersion={46} icon={OperaIcon} position={"relative"} positionTop={"100px"} />
                 </div>
             </section>
             <section className='fourth-section'>
                 <div className="fourth-section-inner-container">
-                <h2>Frequently Asked Questions</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque sit quas expedita, soluta assumenda esse pariatur minus quia dignissimos nisi quasi. Nisi omnis natus voluptatum placeat soluta ipsum pariatur dolores?</p>
-                <hr />
-                <Question ArrowIcon={ArrowDown} question={"What is Bookmark?"}/>
+                    <h2>Frequently Asked Questions</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque sit quas expedita, soluta assumenda esse pariatur minus quia dignissimos nisi quasi. Nisi omnis natus voluptatum placeat soluta ipsum pariatur dolores?</p>
+                    <hr />
+                    <Question ArrowIcon={ArrowDown} question={"What is Bookmark"} />
+                    <Question ArrowIcon={ArrowDown} question={"How can i request a new browser"} />
+                    <Question ArrowIcon={ArrowDown} question={"is there a mobile app"} />
+                    <Question ArrowIcon={ArrowDown} question={"What about other Chromium browsers"} />
+
+                    <Button buttonText={"More Info"} backgroundColor={"hsl(231, 69%, 60%)"} color={"white"} />
                 </div>
-                
-            
+
+
             </section>
         </main>
     )
